@@ -2321,7 +2321,7 @@
 		var tnLink,
 			icon,
 			path,
-			dimensions = video.width && video.height ? 'width:' + video.width + 'px;height:' + video.height + 'px;' : '',
+			dimensions = video.width && video.height ? 'width:' + video.width + 'px;height:' + video.height + 'px;' : 'img',
 			customTn = target.find('img'),
 			srcType = 'src',
 			lazyClass = 'path',
