@@ -2324,7 +2324,7 @@
 			dimensions = video.width && video.height ? 'width:' + video.width + 'px;height:' + video.height + 'px;' : '',
 			customTn = target.find('img'),
 			srcType = 'src',
-			lazyClass = 'img',
+			lazyClass = 'path',
 			settings = this._core.settings,
 			create = function(path) {
 				icon = '<div class="owl-video-play-icon"></div>';
